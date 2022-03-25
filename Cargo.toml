@@ -1,0 +1,10 @@
+[package]
+name = "todo_txt"
+version = "0.1.0"
+edition = "2021"
+authors = ["Miles Glapa-Grossklag"]
+description = "An implementation of the todo.txt format."
+
+[dependencies]
+lazy_static = "1.4.0"
+regex = "1.5.5"
