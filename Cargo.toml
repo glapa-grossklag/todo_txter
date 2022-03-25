@@ -1,11 +1,11 @@
 [package]
-name = "todo_txt"
+name = "todo_txter"
 version = "0.1.0"
 edition = "2021"
 authors = ["Miles Glapa-Grossklag"]
 description = "An implementation of the todo.txt format."
-homepage = "https://github.com/glapa-grossklag/todo_txt"
-repository = "https://github.com/glapa-grossklag/todo_txt"
+homepage = "https://github.com/glapa-grossklag/todo_txter"
+repository = "https://github.com/glapa-grossklag/todo_txter"
 license = "MIT"
 
 [dependencies]

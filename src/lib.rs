@@ -5,7 +5,7 @@
 //!
 //! ```
 //! let example = "Document this crate".to_string();
-//! let mut task = todo_txt::Task::new(&example);
+//! let mut task = todo_txter::Task::new(&example);
 //!
 //! task.projects.push("rust".to_string());
 //! task.is_complete = true;
@@ -34,9 +34,9 @@ impl Task {
     ///
     /// ```
     /// let example = "(B) Write some code +rust @work due:tomorrow".to_string();
-    /// let task = todo_txt::Task::new(&example);
+    /// let task = todo_txter::Task::new(&example);
     ///
-    /// assert_eq!(task, todo_txt::Task {
+    /// assert_eq!(task, todo_txter::Task {
     ///     is_complete: false,
     ///     priority: Some('B'),
     ///     description: "Write some code".to_string(),
@@ -48,9 +48,9 @@ impl Task {
     ///
     /// ```
     /// let example = "x Buy eggs @shopping @home".to_string();
-    /// let task = todo_txt::Task::new(&example);
+    /// let task = todo_txter::Task::new(&example);
     ///
-    /// assert_eq!(task, todo_txt::Task {
+    /// assert_eq!(task, todo_txter::Task {
     ///     is_complete: true,
     ///     priority: None,
     ///     description: "Buy eggs".to_string(),
@@ -121,7 +121,7 @@ impl Task {
     /// # Examples
     ///
     /// ```
-    /// let task = todo_txt::Task {
+    /// let task = todo_txter::Task {
     ///     is_complete: true,
     ///     priority: Some('C'),
     ///     description: "Take out the trash".to_string(),
