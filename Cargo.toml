@@ -4,6 +4,9 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Miles Glapa-Grossklag"]
 description = "An implementation of the todo.txt format."
+homepage = "https://github.com/glapa-grossklag/todo_txt"
+repository = "https://github.com/glapa-grossklag/todo_txt"
+license = "MIT"
 
 [dependencies]
 lazy_static = "1.4.0"
