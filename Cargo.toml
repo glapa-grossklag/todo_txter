@@ -6,6 +6,7 @@ authors = ["Miles Glapa-Grossklag"]
 description = "An implementation of the todo.txt format."
 homepage = "https://github.com/glapa-grossklag/todo_txter"
 repository = "https://github.com/glapa-grossklag/todo_txter"
+documentation = "https://docs.rs/todo_txter"
 license = "MIT"
 
 [dependencies]
