@@ -17,7 +17,7 @@ use regex::Regex;
 use std::fmt;
 
 /// A task.
-#[derive(Debug, Clone, PartialEq)]
+#[derive(Debug, Clone, PartialEq, Default)]
 pub struct Task {
     pub is_complete: bool,
     pub priority: Option<char>,
